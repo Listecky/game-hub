@@ -13,6 +13,7 @@ export interface Game {
   background_image: string;
   parent_platforms: {platform: Platform}[] // Array of objects
   metacritic: number;
+  rating_top: number;
 }
 
 

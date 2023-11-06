@@ -21,7 +21,6 @@ const GenreList = ({ selectedGenre, onSelectGenre }: Props) => {
 
   if (error) return null;
 
-  <div id="TODO">add loading skeleton here</div>;
   if (isLoading) return <Spinner />;
   return (
     <>
